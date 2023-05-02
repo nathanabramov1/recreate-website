@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air b and B</title>
+    <title>airbnb</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
        
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact" id="contact">Contact</a>
-        <input type="text" placeholder="Search.." id="search-bar">
-      </div>
-      <nav>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <h3 id="navbar-brand"><img src="data:image/png;base64,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" alt="image logo" height="30" id="image-logo"> airbnb</h3>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn-btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+      <nav class="middle-nav">
         <ul>
             <a href="pools.html"> <li>Amazing pools <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="pool image" id="pool-image"></li></a>
              <a href="cabins.html"> <li>Cabins <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-house-door" viewBox="0 2 16 16">
@@ -34,6 +37,14 @@
           </svg></p>
         <p id="p-tag"> Includes all fees, before taxes</p>
      </div>
-     <!--not finished. i am up to the last css code that i have written down-->
+     <div class="house-picture">
+     </div>
+     <div class="picture-desciption">
+      <p id="Ptag-strong"> <strong>Woodbury,Connecticut</strong></p>
+      <p id="Ptag-1">64 miles away</p>
+      <p id="Ptag-2"> Jun 1-7</p>
+      <p id="Ptag-3"> <strong>$1,600 </strong>night</p>
+     </div>
+    
 </body>
 </html>
