@@ -78,13 +78,6 @@
     height: 21px;
     width: 16px;
   }
- #boat-image:hover{
-  height: 30px;
-    color: #2196F3;
- }
- #pool-image:hover{
-  height: 30px;
- }
 #search-bar{
     position: sticky;
 }
@@ -145,4 +138,13 @@
 }
 #Ptag-2{
   margin-bottom: 0.2em;
+}
+#boats-text, #pools-text,#cabins-text,#views-text{
+  color: #ff5a60;
+}
+#pool-image{
+  color: #ff5a60;
+}
+#boats-text:hover, #pools-text:hover,#cabins-text:hover,#views-text:hover{
+  color: #2196F3;
 }
