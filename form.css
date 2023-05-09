@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+.form-overall{
+    padding: 10px;
+}
+#l-name{
+    margin-left: 27em;
+}
+#f-name{
+    margin-left: 3em;
+}
+button{
+    background-color: burlywood;
+    border: solid black 1px;
+}
+button:hover{
+    color: white;
+    background-color: brown;
+}
